@@ -1,5 +1,7 @@
 # The 'onlineChange' R package
 The onlineChange R package is designed to quickest detect any change in distributions for online streaming data, supporting any user-specified distributions. It supports sequential Monte Carlo to perform Bayesian change point analysis, where the parameters before or after the change can be unknown. It also supports likelihood ratio based test to determine the stopping time (i.e. when change occurs).
+This is still an ongoing project. The published software here is an initial version that is ready to use.
+For questions and references, please contact Jie Ding at dingj@umn.edu
 
 ## Getting Started
 
