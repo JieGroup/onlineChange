@@ -1,0 +1,19 @@
+Package: onlineChange
+Title: Quickest Change Detection for Online Streaming Data
+Version: 0.0.1
+Authors@R: c(
+    person("Ning", "Dai", email = "daixx224@umn.edu", role = c("aut","cre")),
+    person("Yi", "Rong", email = "rongx061@umn.edu", role = c("aut")),
+    person("Galin", "Jones", email = "galin@umn.edu", role = c("aut")),
+    person("Jie", "Ding", email = "dingj@umn.edu", role = c("aut")))
+Description: It uses sequential Monte Carlo to perform Bayesian change point analysis, where the parameters before or after the change can be unknown. It also supports likelihood ratio based test to determine the stopping time (when change occurs).
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: stats (>= 3.5.1)
+RoxygenNote: 6.1.1.9000
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
